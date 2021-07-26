@@ -7,12 +7,16 @@ import { Router } from '@angular/router';
 })
 export class ImportComponent implements OnInit {
 
-  constructor(private router: Router) {
-    
-  }
+  str:String=""
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     console.log(this.router.url)
+    this.str = this.router.url;
+    this.str=this.str.substr(21)
+    console.log(this.str);
   }
 
+  
+  
 }
