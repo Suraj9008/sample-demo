@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+
+import { SocialmediaService } from '../../../_services/socialmedia.service'
 @Component({
   selector: 'app-import',
   templateUrl: './import.component.html',
@@ -7,16 +9,18 @@ import { Router } from '@angular/router';
 })
 export class ImportComponent implements OnInit {
 
-  str:String=""
-  constructor(private router: Router) {}
+  str: String = ""
+  constructor(private router: Router, private socialmedia: SocialmediaService) { }
 
   ngOnInit(): void {
-    console.log(this.router.url)
     this.str = this.router.url;
-    this.str=this.str.substr(21)
+    this.str = this.str.substr(21)
     console.log(this.str);
   }
 
-  
-  
+  linkedIn() {
+      this.socialmedia.accesstoken(this.str).subscribe(data=>{console.log(data);
+      });
+  }
+
 }

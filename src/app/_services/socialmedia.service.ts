@@ -5,10 +5,12 @@ import { HttpClient } from '@angular/common/http'
 })
 export class SocialmediaService {
 
-  constructor( private http:HttpClient ) { }
-
-  accesstoken(){
-      // this.http.
-  }
+  constructor(private http: HttpClient) { }
+  url = 'https://sample-website-linkedin.herokuapp.com/home/contact/import';
   
+  
+  accesstoken(code: any) {
+    return this.http.post(this.url + '/auth/linkedin/callback', code);
+  }
+
 }
