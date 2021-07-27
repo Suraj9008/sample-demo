@@ -20,7 +20,7 @@ export class ImportComponent implements OnInit {
 
   linkedIn() {
     this.socialmedia.accesstoken().subscribe(data => {
-      console.log(data);
+      window.location.href=data.toString();
     });
   }
 
