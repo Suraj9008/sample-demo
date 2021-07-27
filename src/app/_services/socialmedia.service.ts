@@ -4,13 +4,11 @@ import { HttpClient } from '@angular/common/http'
   providedIn: 'root'
 })
 export class SocialmediaService {
-
   constructor(private http: HttpClient) { }
-  url = 'https://sample-website-linkedin.herokuapp.com/home/contact/import';
+  url = 'https://angular-crm-backend.herokuapp.com/';
   
-  
-  accesstoken(code: any) {
-    return this.http.post(this.url + '/auth/linkedin/callback', code);
+  accesstoken() {
+    return this.http.get('https://angular-crm-backend.herokuapp.com/linkedin/auth/linkedin');
   }
 
 }

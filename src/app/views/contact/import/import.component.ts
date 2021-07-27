@@ -19,8 +19,9 @@ export class ImportComponent implements OnInit {
   }
 
   linkedIn() {
-      this.socialmedia.accesstoken(this.str).subscribe(data=>{console.log(data);
-      });
+    this.socialmedia.accesstoken().subscribe(data => {
+      console.log(data);
+    });
   }
 
 }
