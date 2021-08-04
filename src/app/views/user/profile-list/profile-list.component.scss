@@ -222,3 +222,6 @@ body {
     .modal form label {
     font-weight: normal;
     }	
+
+    mat-cell:first-of-type, mat-header-cell:first-of-type, mat-footer-cell:first-of-type {flex: 0 0 7%;}
+    .table-title  {margin: -20px 0px 10px;}

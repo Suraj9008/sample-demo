@@ -131,7 +131,7 @@
       -moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
       -ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
       -o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
-      filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+      filter: 			drop-shadow(0 1px 1px rgba(0,0,0,.8));	 	
   }
   .icon.social.fb i {
       left:13px;
@@ -143,4 +143,14 @@
   .icon.social.in i {
       left:11px;
   }
-  
+  .card-body { padding: 0;}
+
+  label {font-size: 14px;}
+  select {font-size: 14px; color: #73818f; height: 35px;}
+  h6 {font-size: 14px;}
+  .car {background-color: #f0f3f5;}
+  .face { background: #1b4b8d !important; color: #fff  !important;}
+  .twi { background: #54abee !important; color: #fff  !important;}
+  .link { background: #0084ff !important; color: #fff  !important;}
+  .account-settings .user-profile {margin: 15px; box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.098), 0 1px 5px 0 rgba(0, 0, 0, 0.084);}
+  .padd-let {padding-left:0px;}

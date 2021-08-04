@@ -31,3 +31,12 @@ p {
 .select-editable select:focus, .select-editable input:focus {
   outline:none;
 }
+
+label {font-size: 14px;}
+select {font-size: 14px; color: #73818f; height: 35px;}
+h6 {font-size: 14px;}
+input {height: 35px; }
+.add-height input { height: 16px;}
+.space-1 input {margin-right: 30px;}
+.corn {border-radius: 0.25rem !important;}
+.padd-left  { padding-left: 0px;}

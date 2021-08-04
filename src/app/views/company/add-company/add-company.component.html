@@ -83,7 +83,7 @@
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="form-group">
-                                            <label class="control-label">Treading Name:</label>
+                                            <label class="control-label">Short Name:</label>
                                             <div class="">
                                                 <input class="form-control" placeholder="Enter Short Name" type="text"
                                                     value="">
@@ -100,7 +100,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-4 space-1">
                                         <div class="row">
                                             <div class="form-group">
                                                 <label class=" control-label">Business Id<span
@@ -111,7 +111,7 @@
                                                         aria-label="Recipient's username"
                                                         aria-describedby="basic-addon2">
                                                     <div class="input-group-append">
-                                                        <span class="btn btn-primary" id="basic-addon2">+</span>
+                                                        <span class="btn btn-primary corn" id="basic-addon2">+</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -166,8 +166,8 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 mt-4">
-                                        <!-- <div class="form-check">
+                                    <div class="col-lg-4 mt-4 add-height">
+                                        <div class="form-check">
                                             <input class="form-check-input" type="checkbox" value=""
                                                 id="flexCheckDefault">
                                             <label class=" control-label">On Hold?&nbsp;<i class="fa fa-question-circle"
@@ -183,7 +183,7 @@
                                                     data-bs-placement="right"
                                                     title="If you are using the CiviMail component to send mailings to contacts, this field provides additional control over which email address is used. By default, CiviMail sends mail to each contact's preferred email address. If the contact has multiple locations, then the preferred email of the primary location is used. However, if the contact prefers to have CiviMail ('bulk') mailings set to an alternate email address - check the 'Use for Bulk Mailings' box next to that email address."
                                                     aria-hidden="true"></i> </label>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -290,14 +290,14 @@
                                 <div class="row">
                                     <form class="" [formGroup]="productForm" (ngSubmit)="onSubmit()">
                                         <h6 class="">Add Social Media</h6>
-                                        <div class="col-lg-12" #socialField>
+                                        <div class="col-lg-12 padd-left" #socialField>
                                             <div class="container" formArrayName="quantities">
                                                 <div class="row">
-                                                    <div class="col-lg-4">
+                                                    <div class="col-lg-4 padd-left">
                                                         <div class="form-group">
                                                             <label class=" control-label help-block form-text">Social
                                                                 Media Name</label>
-                                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12 padd-left">
                                                                 <select class="form-select"
                                                                     aria-label="Default select example">
                                                                     <option *ngFor="let i of media">{{i.accountName}}
@@ -310,7 +310,7 @@
                                                         <div class="form-group">
                                                             <label
                                                                 class=" control-label help-block form-text">Username</label>
-                                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12 padd-left">
                                                                 <input type="url" class="form-control"
                                                                     value="https://www.linkedin.com/in/lorem">
                                                             </div>
@@ -907,7 +907,7 @@
                     </div>
                     <div class="form-group pr-3 d-flex flex-row">
                         <div class="ui-select">
-                            <button type="button" class="btn btn-secondary mt-5">Cancle</button>
+                            <button type="button" class="btn btn-secondary mt-5">Cancel</button>
                         </div>
                         <div class="ui-select pl-3">
                             <button type="submit" class="btn btn-primary mt-5">Submit Form</button>

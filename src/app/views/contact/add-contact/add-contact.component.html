@@ -49,7 +49,7 @@
                         <div class="row">
                             <!-- edit form column -->
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lg-4">
                                     <label class=" control-label">Contact Type:<span
                                             style="color: red;">*</span></label>
                                     <div class="">
@@ -61,7 +61,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 personal-info">
+                                <div class="col-lg-4 personal-info">
                                     <form class="form-horizontal" role="form">
                                         <div class="form-group">
                                             <label class="control-label">Add Profile:</label>
@@ -71,7 +71,7 @@
                                         </div>
                                     </form>
                                 </div>
-                                <div class="col-lg-2">
+                                <div class="col-lg-4">
                                     <div class="form-group">
                                         <label class="control-label">Prefix:<span style="color: red;">*</span></label>
                                         <div class="ui-select">
@@ -114,7 +114,7 @@
                                                 value="">
                                         </div>
                                     </div>
-                                    <div class="col-lg-2">
+                                    <div class="col-lg-3">
                                         <div class="row">
                                             <div class="form-group">
                                                 <label class=" control-label">Suffix:<span
@@ -143,7 +143,7 @@
                                                 value="">
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 form-group">
+                                    <div class="col-lg-4 form-group add-height">
                                         <label for="exampleInputEmail1" class="form-label pr-3">
                                             Gender:<span style="color: red;">*</span></label>
                                         <div class="row pl-3">
@@ -200,7 +200,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-lg-2 mt-4">
+                                    <div class="col-lg-2 mt-4 add-height">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" value=""
                                                 id="flexCheckDefault">
@@ -273,7 +273,7 @@
                                         <input class="form-control" placeholder="Enter Job Title" type="text" value="">
                                     </div>
                                 </div>
-                                <div class="col-lg-12 mt-3">
+                                <div class="col-lg-9">
                                     <label class="control-label">Additional Info:<span
                                             style="color: red;">*</span></label>
                                     <div class="">
@@ -384,14 +384,14 @@
                                 <div class="row">
                                     <form class="" [formGroup]="productForm" (ngSubmit)="onSubmit()">
                                         <h3 class="">Add Social Media</h3>
-                                        <div class="col-lg-12" #socialField>
+                                        <div class="col-lg-12 padd-left" #socialField>
                                             <div class="container" formArrayName="quantities">
-                                                <div class="row">
-                                                    <div class="col-lg-4">
+                                                <div class="row"> 
+                                                    <div class="col-lg-4 space-1 padd-left">
                                                         <div class="form-group">
                                                             <label class=" control-label help-block form-text">Social
                                                                 Media Name</label>
-                                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12 padd-left">
                                                                 <select class="form-select"
                                                                     aria-label="Default select example">
                                                                     <option *ngFor="let i of media">{{i.accountName}}
@@ -400,18 +400,18 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-5 padd-left">
                                                         <div class="form-group">
                                                             <label
                                                                 class=" control-label help-block form-text">Username</label>
-                                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="col-md-12 col-sm-12 col-xs-12 padd-left">
                                                                 <input type="url" class="form-control"
                                                                     value="https://www.linkedin.com/in/lorem">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3">
-                                                        <div class="form-group p-2 mt-3">
+                                                    <div class="col-lg-3 padd-left">
+                                                        <div class="form-group p-2 mt-3 padd-left">
                                                             <button type="button" (click)="addQuantity()"
                                                                 class="btn btn-primary mt-1">Add
                                                                 More</button>
@@ -1172,7 +1172,7 @@
                     </div>
                     <div class="form-group pr-3 d-flex flex-row">
                         <div class="ui-select">
-                            <button type="button" class="btn btn-secondary mt-5">Cancle</button>
+                            <button type="button" class="btn btn-secondary mt-5">Cancel</button>
                         </div>
                         <div class="ui-select pl-3">
                             <button type="submit" class="btn btn-primary mt-5">Submit Form</button>

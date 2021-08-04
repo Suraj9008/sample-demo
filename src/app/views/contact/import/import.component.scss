@@ -10,5 +10,64 @@ body{
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: 30px 0 20px;
-  margin: 20px 0 30px;
+  margin: 10px 0 20px;
+}
+
+a.socialbox {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+  padding: 15px 0px;
+  width: 265px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px, rgba(0, 0, 0, 0.22) 0px 3px 6px;
+}
+
+a.socialbox.facebook {
+  background-color: #2980b9;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+a.socialbox.microsoft {
+  background-color: #05A6F0;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+a.socialbox.salestracker {
+  background-color: #75BA4D;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+a.socialbox.linkedin {
+  background-color: #0073B1;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+label{
+    font-weight: 500;
+}
+
+a.socialbox .social-icon {
+  line-height: 32px;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  padding-right: 15px;
+}
+
+a.socialbox .description {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 13px;
+}
+
+a.socialbox .description span {
+  display: block;
+  line-height: 16px;
 }

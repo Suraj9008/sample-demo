@@ -157,3 +157,8 @@ table.table .avatar {
     margin-top: 10px;
     font-size: 13px;
 }
+
+mat-cell:first-of-type, mat-header-cell:first-of-type, mat-footer-cell:first-of-type {
+    max-width: 100px;
+}
+.table-title  {margin: -20px 0px 10px;}
