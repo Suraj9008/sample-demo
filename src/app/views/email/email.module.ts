@@ -7,7 +7,7 @@ import { NewEmailTemplateComponent } from './new-email-template/new-email-templa
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { CountryService } from '../../country.service';
+import { CountryService } from '../../_services/country.service';
 import { MailChimpComponent } from './mail-chimp/mail-chimp.component';
 import { TemplateListComponent } from './template-list/template-list.component';
 import {MatFormFieldModule} from '@angular/material/form-field';

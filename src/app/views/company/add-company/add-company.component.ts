@@ -3,7 +3,7 @@ import Stepper from 'bs-stepper';
 declare var jQuery: any;
 import { FormGroup, FormControl, FormArray, FormBuilder } from '@angular/forms'
 
-import { TaxonomyService } from '../../taxonomy.service'
+import { TaxonomyService } from '../../../_services/taxonomy.service'
 import {Observable} from 'rxjs';
 import {startWith, map} from 'rxjs/operators';
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TaxonomyService } from '../../../taxonomy.service'
+import { TaxonomyService } from '../../../../_services/taxonomy.service'
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-term-list',

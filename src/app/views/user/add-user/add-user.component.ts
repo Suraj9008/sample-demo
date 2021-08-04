@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, FormArray, FormBuilder, Validators } from '@angular/forms'
-import { TaxonomyService } from '../../taxonomy.service'
+import { TaxonomyService } from '../../../_services/taxonomy.service'
 import { AlertService, UserService, AuthenticationService } from '../../../_services';
 import { Router } from '@angular/router';
 import { first } from 'rxjs/operators';

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import Stepper from 'bs-stepper';
 declare var jQuery: any;
 import { FormGroup, FormControl, FormArray, FormBuilder } from '@angular/forms'
-import { TaxonomyService } from '../../taxonomy.service'
+import { TaxonomyService } from '../../../_services/taxonomy.service'
 @Component({
   selector: 'app-edit-company',
   templateUrl: './edit-company.component.html',

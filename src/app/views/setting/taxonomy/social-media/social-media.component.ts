@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import { TaxonomyService } from '../../../taxonomy.service'
+import { TaxonomyService } from '../../../../_services/taxonomy.service'
 @Component({
   selector: 'app-social-media',
   templateUrl: './social-media.component.html',

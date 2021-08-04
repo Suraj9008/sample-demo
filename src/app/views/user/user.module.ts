@@ -6,7 +6,7 @@ import { AddUserComponent } from './add-user/add-user.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { UserRoleComponent } from './user-role/user-role.component';
 import { UserPermissionComponent } from './user-permission/user-permission.component';
-import { TaxonomyService} from '../taxonomy.service';
+import { TaxonomyService} from '../../_services/taxonomy.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
